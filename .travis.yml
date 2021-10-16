@@ -1,8 +1,7 @@
 language: python
 python:
 - "3.9"
-- "nightly"
 install:
 - "pip install pytest"
 - "pip install requests"
-script: python -m pytest ddg_test
+script: python -m pytest ddg_test.py
